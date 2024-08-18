@@ -155,7 +155,7 @@ Then you transform it into a probability, using the sigmoid $(\sigma)$ or softma
 
 $Sigmoid = \frac{1}{1 + e^{-z}} = \hat{Y}$ where $z = \hat{Y}_{raw}$ 
 
-$softmax = \frac{e^{z_k}}{\sum e^{z_j}} = \hat{Y}_k$ where $z = \hat{Y}_{raw}$ 
+$Softmax = \frac{e^{z_k}}{\sum e^{z_j}} = \hat{Y}$ where $z = \hat{Y}_{raw}$ 
 
 You can then compute the loss using the categorical cross-entropy loss:
 
