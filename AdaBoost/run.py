@@ -11,8 +11,11 @@ Y_test = np.where(Y_test == 0, -1, 1)
 
 verbose_train = True
 verbose_test = True
-n_stumps = 100
+n_stumps = 5
+criterion = 'entropy'
 
-model = AdaBoost(verbose_train = verbose_train, verbose_test=verbose_train)
-model.train(X_train, Y_train, n_stumps = n_stumps)
-model.test(X_test, Y_test) 
+model = AdaBoost(verbose_train = verbose_train, verbose_test = verbose_test)
+model.train(X_train, Y_train, n_stumps = n_stumps, criterion = criterion)
+model.test(X_test, Y_test)
+
+
