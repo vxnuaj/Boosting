@@ -1,4 +1,5 @@
-TODO: REVIEW NOTES
+<img src = 'img/trees.png'></img>
+
 ## Boosting 
 
 ### Adaboost
