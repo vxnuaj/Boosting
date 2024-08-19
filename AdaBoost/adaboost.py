@@ -206,4 +206,3 @@ class _Node:
     def _is_leaf(self):
         return self.value is not None
 
-       return loss
