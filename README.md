@@ -173,7 +173,7 @@ You then compute the residual / gradient of the loss with respect to the predict
 $R = Y - \sigma(\hat{Y}_{raw})$
 
 - For multiclass classification:
-$R_k = Y_k - \frac{e^{\hat{Y}_{raw}}}{\sum e^{\hat{Y}_{raw}}}$
+$R = Y_k - \frac{e^{\hat{Y}_{raw}}}{\sum e^{\hat{Y}_{raw}}}$
 
 These residuals will then be used to grow the next tree.
 
